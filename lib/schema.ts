@@ -11,6 +11,10 @@ export const OpportunitySchema = z.object({
   country: z.string().describe("País, em português"),
   website: z.string().nullable().describe("Site oficial, ou null se não verificado"),
   whatHappened: z.string().describe("O que aconteceu, em português, 1 a 3 frases"),
+  evidenceQuote: z
+    .string()
+    .nullable()
+    .describe("Trecho literal da fonte que sustenta o sinal, no idioma original, ou null"),
   eventDate: z.string().describe("Data do sinal no formato AAAA-MM-DD"),
   sourceUrl: z.string().describe("Link para a fonte original"),
   extraSourceUrls: z.array(z.string()).describe("Outras fontes usadas, se houver"),
@@ -49,6 +53,7 @@ export type Opportunity = z.infer<typeof OpportunitySchema> & {
 
 export type Report = Omit<z.infer<typeof ReportSchema>, "opportunities"> & {
   date: string;
+  origin: "manual" | "automática";
   generatedAt: string;
   model: string;
   opportunities: Opportunity[];

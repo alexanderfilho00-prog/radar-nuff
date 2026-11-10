@@ -4,6 +4,10 @@ Busca, todo dia útil, sinais públicos dos últimos 14 dias de que marcas indep
 
 Ele traz até 5 oportunidades, cada uma com fonte, serviço sugerido, quem abordar, o case certo (OMNIA, N1 ou N1 × Goleiro de Aluguel) e uma abertura pronta para revisar. **Nada é enviado automaticamente.**
 
+## Interface (v1)
+
+Lista e detalhe da rodada, com filtros (mercado, classificação, case, nicho, fonte), ações para abrir a fonte e copiar o gancho, e importação manual de rodadas em JSON com validação. Detalhes, formato de importação e decisões em [`docs/v1-interface.md`](docs/v1-interface.md). O exemplo de importação está em `public/exemplos/rodada-exemplo.json`.
+
 ## Como funciona
 
 ```
@@ -19,7 +23,8 @@ GitHub Actions (dias úteis, 8h34 de Brasília)
 - `config/perfil.md`: o briefing (nichos, mercados, cases, regras). **Edite aqui** para mudar o que o radar procura.
 - `scripts/radar.ts`: a rotina de pesquisa.
 - `data/reports/`: um JSON por dia. É o histórico, e o radar o usa para não repetir empresas.
-- `app/`: o site (Next.js).
+- `app/`: a interface (Next.js).
+- `lib/radar/`: modelo de dados, validação da importação e armazenamento no navegador.
 
 Uma oportunidade cuja fonte não apareceu nos resultados da pesquisa ganha o aviso **"fonte não confirmada, revisar"** no site.
 

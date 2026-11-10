@@ -1,0 +1,4 @@
+{ "date": "2026-11-11", "origin": "manual", "summary": "TESTE FICTÍCIO: rodada com uma oportunidade.",
+  "opportunities": [ { "company": "Marca Teste Fictícia", "market": "Zona do euro", "classification": "Demanda explícita",
+    "niche": "Moda (teste)", "whatHappened": "Sinal fictício de teste.", "sourceUrl": "https://example.com/teste", "sourceVerified": false,
+    "case": "N1", "opener": "Olá, isto é um teste." } ] }

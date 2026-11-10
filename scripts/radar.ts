@@ -102,7 +102,7 @@ Como trabalhar:
 2. Abra (web_fetch) a página de cada candidato forte para confirmar a data, o que foi pedido e, se houver, o nome do contato. Abra também o site oficial da empresa quando puder.
 3. Escolha até 5 oportunidades no total.
 
-Ao terminar, escreva suas notas finais em português com, para cada oportunidade: empresa, nicho, mercado (EUA, Zona do euro ou Reino Unido), país, site, o que aconteceu, data (AAAA-MM-DD), URL exata da fonte (copiada dos resultados), outras fontes, classificação (Demanda explícita ou Oportunidade inferida), serviço e por quê, contato (nome só se verificado, com a URL que o verifica; senão, só o cargo), case (OMNIA, N1 ou N1 × Goleiro de Aluguel) e por quê, e uma abertura de até 3 linhas no idioma do contato.
+Ao terminar, escreva suas notas finais em português com, para cada oportunidade: empresa, nicho, mercado (EUA, Zona do euro ou Reino Unido), país, site, o que aconteceu, um trecho literal da fonte que sustenta o sinal (copiado sem alterar, no idioma original), data (AAAA-MM-DD), URL exata da fonte (copiada dos resultados), outras fontes, classificação (Demanda explícita ou Oportunidade inferida), serviço e por quê, contato (nome só se verificado, com a URL que o verifica; senão, só o cargo), case (OMNIA, N1 ou N1 × Goleiro de Aluguel) e por quê, e uma abertura de até 3 linhas no idioma do contato.
 Inclua também: resumo do dia, observação por mercado sem oportunidade forte, sinais descartados (com motivo e URL) e as principais buscas feitas.`;
 
   const messages: Anthropic.Beta.BetaMessageParam[] = [{ role: "user", content: user }];
@@ -182,8 +182,9 @@ async function main() {
   const parsed = await structure(today, notes);
 
   const report: Report = {
-    ...parsed,
     date: today,
+    origin: "automática",
+    ...parsed,
     generatedAt: new Date().toISOString(),
     model: MODEL,
     opportunities: parsed.opportunities.slice(0, 5).map((o) => ({

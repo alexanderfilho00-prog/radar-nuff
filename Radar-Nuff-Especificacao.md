@@ -12,6 +12,8 @@ Documento de passagem para a próxima etapa, o desenho da interface do app. Ele 
 - ⏳ **Pendência:** algo que falta decidir ou fazer.
 - ⚠️ **Lacuna:** informação que não existe ou que não estava acessível.
 
+> **Atualização (v1 da interface):** a primeira versão funcional foi implementada. As divergências entre esta especificação e o código, e as decisões tomadas, estão em `docs/v1-interface.md`.
+
 > **Nome:** a conversa usou "Radar de Prospecção Criativa" como nome da tarefa e do site. "Radar de Oportunidades do Studio Nuff" e "Studio Nuff" aparecem só no pedido deste documento. ⏳ Falta definir o nome que vai na interface.
 
 ---

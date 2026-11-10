@@ -1,34 +1,22 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+import type { Metadata, Viewport } from "next";
+import "@fontsource-variable/big-shoulders-display";
+import "@fontsource-variable/archivo/wdth.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Radar de Prospecção",
-  description: "Oportunidades diárias de branding, comunidade e filmes de campanha.",
+  title: "Radar de Prospecção Criativa · Studio Nuff",
+  description: "Ferramenta interna do Studio Nuff: oportunidades do dia, com evidência e gancho de abordagem.",
   robots: { index: false, follow: false },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#FFD324",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>
-        <header className="site-header">
-          <div className="wrap header-inner">
-            <Link href="/" className="brand">
-              <span className="brand-dot" aria-hidden />
-              Radar de Prospecção
-            </Link>
-            <nav>
-              <Link href="/">Hoje</Link>
-              <Link href="/relatorios">Histórico</Link>
-            </nav>
-          </div>
-        </header>
-        <main className="wrap">{children}</main>
-        <footer className="wrap site-footer">
-          Rascunhos para revisão. Nada é enviado automaticamente.
-        </footer>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

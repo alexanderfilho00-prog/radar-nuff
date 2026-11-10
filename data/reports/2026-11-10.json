@@ -1,7 +1,12 @@
 {
+  "date": "2026-11-10",
+  "origin": "manual",
   "summary": "O dia teve poucos sinais fortes. Encontrei 1 pedido explícito e 4 oportunidades inferidas, quase todas no Reino Unido, e nenhuma oportunidade verificável em Portugal ou na zona do euro.",
   "marketNotes": [
-    { "market": "Zona do euro", "note": "Nenhuma oportunidade forte em Portugal nos últimos 14 dias: as vagas de editor encontradas eram para filmes de casamento e técnicos de auditório. A ponte mais próxima é a Wrap London, que está entrando na Alemanha." }
+    {
+      "market": "Zona do euro",
+      "note": "Nenhuma oportunidade forte em Portugal nos últimos 14 dias: as vagas de editor encontradas eram para filmes de casamento e técnicos de auditório. A ponte mais próxima é a Wrap London, que está entrando na Alemanha."
+    }
   ],
   "opportunities": [
     {
@@ -11,6 +16,7 @@
       "country": "Reino Unido (Londres)",
       "website": null,
       "whatHappened": "Vaga para criador de conteúdo freelancer: conceitos, filmagem e edição de vídeos curtos para Reels, Stories e TikTok, por projeto, 3 a 4 dias por mês, quase sempre remoto. Válida até 30/11.",
+      "evidenceQuote": "We're looking for a creative freelance Social Media Content Creator to support our team on an ad hoc, project basis. You'll come up with scroll-stopping video ideas for our clients and bring them to life, mainly for Instagram. The role is mainly remote, with occasional days in London to film content. We expect it to be around 3 to 4 days a month, depending on day rate.",
       "eventDate": "2026-10-29",
       "sourceUrl": "https://www.diarydirectory.com/vacancies/ccd-pr-digital-freelance-social-media-content-creator-london/4754",
       "extraSourceUrls": [],
@@ -33,9 +39,12 @@
       "country": "Reino Unido",
       "website": "https://sophieandsongest.com",
       "whatHappened": "Marca nova de cuidados labiais com potes recarregáveis contratou a Nicki Petitt PR para liderar o lançamento na mídia e os anúncios de novos produtos ao longo de 2027.",
+      "evidenceQuote": "Nicki Petitt PR has been appointed to manage the PR for new British luxury lip care brand Sophie & Songest. The agency will lead the brand's media launch activity, ongoing press office and new product development announcements throughout 2027.",
       "eventDate": "2026-11-05",
       "sourceUrl": "https://www.diarydirectory.com/newsarticle/lip-care-brand-sophie-songest-appoints-nicki-petitt-pr/76199",
-      "extraSourceUrls": ["https://sophieandsongest.com"],
+      "extraSourceUrls": [
+        "https://sophieandsongest.com"
+      ],
       "classification": "Oportunidade inferida",
       "service": "Branding e posicionamento de lançamento, e o filme de lançamento",
       "serviceWhy": "A PR entra agora e a marca vai precisar de narrativa e peças visuais coerentes para a imprensa de 2027.",
@@ -55,9 +64,12 @@
       "country": "Reino Unido",
       "website": null,
       "whatHappened": "A agência ganhou as contas do Reino Unido das fragrâncias TATE 01, de Tate McRae (3/11), e Calliope, de Megan Moroney (5/11), via o distribuidor Glorious Brands, com foco em conteúdo de criadores e ativação de PR.",
+      "evidenceQuote": "MUSE Communications will support client Glorious Brands, which specialises in commercial, creative and operational growth in the UK and Ireland, with strategic media relations, creator advocacy and PR activation for Calliope, the debut fragrance from American country music artist Megan Moroney.",
       "eventDate": "2026-11-05",
       "sourceUrl": "https://www.diarydirectory.com/newsarticle/megan-moroneys-fragrance-brand-calliope-appoints-pr-agency/76174",
-      "extraSourceUrls": ["https://www.diarydirectory.com/newsarticle/tate-mcraes-fragrance-brand-tate-01-appoints-muse-communications/76109"],
+      "extraSourceUrls": [
+        "https://www.diarydirectory.com/newsarticle/tate-mcraes-fragrance-brand-tate-01-appoints-muse-communications/76109"
+      ],
       "classification": "Oportunidade inferida",
       "service": "Edição e finalização de filmes de campanha e conteúdo de criadores",
       "serviceWhy": "Duas contas novas de música × beleza ao mesmo tempo costumam gerar muito vídeo curto para editar rápido.",
@@ -77,9 +89,12 @@
       "country": "Reino Unido, entrando na Alemanha",
       "website": "https://www.wraplondon.co.uk",
       "whatHappened": "Marca independente de moda feminina (coleções pequenas em tecidos naturais, quatro por ano) contratou a TASK PR para a imprensa no Reino Unido e na Alemanha. A coleção de inverno MW26 está no ar com lookbooks.",
+      "evidenceQuote": "TASK PR has been appointed to represent womenswear brand Wrap London. The independent British brand offers small-batch collections made from natural fabrics including linen, organic cotton, silk and cashmere, and launches four collections each year. […] The agency will lead all press relations across the UK and Germany.",
       "eventDate": "2026-11-02",
       "sourceUrl": "https://www.diarydirectory.com/newsarticle/womenswear-brand-wrap-london-appoints-pr-agency-across-uk-and-germany/76070",
-      "extraSourceUrls": ["https://www.wraplondon.co.uk"],
+      "extraSourceUrls": [
+        "https://www.wraplondon.co.uk"
+      ],
       "classification": "Oportunidade inferida",
       "service": "Edição de filmes de coleção e lookbook, com cortes para social",
       "serviceWhy": "Quatro coleções por ano e a entrada na Alemanha pedem vídeo frequente e adaptado aos dois mercados.",
@@ -99,9 +114,12 @@
       "country": "EUA (provável: preços em USD; sede não confirmada)",
       "website": "https://originalheir.com",
       "whatHappened": "Marca nova de escovas de cabelo de luxo, lançada com as escovas dobráveis Pronta e com mais duas na lista de espera (Bella e Doppio). Citada como marca nova no resumo de lançamentos da BeautyMatter.",
+      "evidenceQuote": "This week saw new brands giving everyday beauty essentials design-minded upgrades, including Kleanr, which is reinventing the makeup brush, making it easier to clean, and Original Heir, which aims to bring luxury to the humble hairbrush.",
       "eventDate": "2026-11-05",
       "sourceUrl": "https://beautymatter.com/articles/2026-week-45-beauty-brand-and-product-launches",
-      "extraSourceUrls": ["https://originalheir.com/pages/about"],
+      "extraSourceUrls": [
+        "https://originalheir.com/pages/about"
+      ],
       "classification": "Oportunidade inferida",
       "service": "Posicionamento e branding de lançamento",
       "serviceWhy": "A marca é muito recente, tem uma narrativa forte e dois produtos por lançar: é a hora de definir a linguagem de marca e campanha.",
@@ -116,11 +134,31 @@
     }
   ],
   "discarded": [
-    { "name": "Bruno Bragança Photography (Lisboa)", "reason": "Pede editor freelancer, mas para filmes de casamento.", "url": "https://cargadetrabalhos.pt/ofertas/procuramos-editor-a-de-video/" },
-    { "name": "Soundtrap Productions (Porto)", "reason": "Bolsa de técnicos audiovisuais e administrativos para um auditório.", "url": "https://cargadetrabalhos.pt/ofertas/recrutamento-urgente-administrativos-e-tecnicos-audiovisuais-freelancers-grande-porto/" },
-    { "name": "Primavera Sound Porto 2027", "reason": "Festival grande, não é independente nem boutique.", "url": null },
-    { "name": "Thirteen Lune (EUA)", "reason": "Varejista com várias marcas, não uma marca independente.", "url": "https://www.diarydirectory.com/newsarticle/beauty-and-wellness-platform-thirteen-lune-appoints-usa-pr-agency/76121" },
-    { "name": "BYORBE (Reino Unido)", "reason": "Sinal válido, mas mais fraco que Sophie & Songest no mesmo nicho. Fica como reserva.", "url": "https://www.diarydirectory.com/newsarticle/byorbe-announces-launch-and-appoints-representation/76107" }
+    {
+      "name": "Bruno Bragança Photography (Lisboa)",
+      "reason": "Pede editor freelancer, mas para filmes de casamento.",
+      "url": "https://cargadetrabalhos.pt/ofertas/procuramos-editor-a-de-video/"
+    },
+    {
+      "name": "Soundtrap Productions (Porto)",
+      "reason": "Bolsa de técnicos audiovisuais e administrativos para um auditório.",
+      "url": "https://cargadetrabalhos.pt/ofertas/recrutamento-urgente-administrativos-e-tecnicos-audiovisuais-freelancers-grande-porto/"
+    },
+    {
+      "name": "Primavera Sound Porto 2027",
+      "reason": "Festival grande, não é independente nem boutique.",
+      "url": null
+    },
+    {
+      "name": "Thirteen Lune (EUA)",
+      "reason": "Varejista com várias marcas, não uma marca independente.",
+      "url": "https://www.diarydirectory.com/newsarticle/beauty-and-wellness-platform-thirteen-lune-appoints-usa-pr-agency/76121"
+    },
+    {
+      "name": "BYORBE (Reino Unido)",
+      "reason": "Sinal válido, mas mais fraco que Sophie & Songest no mesmo nicho. Fica como reserva.",
+      "url": "https://www.diarydirectory.com/newsarticle/byorbe-announces-launch-and-appoints-representation/76107"
+    }
   ],
   "searches": [
     "freelance video editor beauty brand campaign",
@@ -132,7 +170,6 @@
     "marca portuguesa lança nova marca cosmética moda wellness",
     "Marketeer nova conta agência criativa"
   ],
-  "date": "2026-11-10",
   "generatedAt": "2026-11-10T13:00:00.000Z",
   "model": "manual (sessão Claude Code)"
 }
